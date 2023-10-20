@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+  }
+  a{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color:black;
+}
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  color:black;
+  font:14px;
+  text-align:center;
+}
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  color:black;
+  font:14px;
+  text-align:center;
+}
+h3{
+  font-family: 'Courier New', Courier, monospace;
+  font-family: monospace;
+  color:black;
+  font:18px;
+  text-align:center;
+}
+p{
+  color:black;
+  font:14px;
+  text-align:center;
+}
+div{
+  text-align: center;
+}
+  /*Estilos parallax*/
+  .container {
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    perspective: 3px;
+  }
+  hr{
+    height: 2px;
+    width: 70%;
+    background-color: rgba(53, 51, 51, 0.74);
+  }
+  marquee{
+    color:rgb(43, 40, 43);
+    border-style:dotted;
+} 
+td{
+  color:purple;
+  font:15px;
+  text-align:center;
+}
+caption{
+  color:black;
+  font:14px;
+  text-align:center;
+}
+tr{
+  color:black;
+  font: 14px;
+  text-align:center;
+}
+th{
+  background-color:#D2B4DE ;
+}
+
+/*Comienza edicion de parallax */
+  section {
+    background-size: cover;
+    color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .parallax-bg{
+    background-position: center center;
+    transform: translateZ(-0.5px) scale(2);
+    background-size: cover;
+    z-index: -1;
+    height: 50vh;
+  }
+  .parallax-content{
+    z-index: -1;
+    transform: translateY(-25vh) translateZ(0px) scale(1);
+    padding-left:30px;
+    padding-right:30px;
+    text-align:center;
+  }
+  .no-parallax-section{
+    height: 50vh;
+  }
+  .no-parallax-content{
+    text-align:center;
+    padding:30px;
+  }
+  /*Colores de fondo*/
+  .bg-1{
+    background:linear-gradient(90deg, #283747 0%, #AEB6BF  0%,#566573  100%);
+  }
+  .bg-2{
+    background:linear-gradient(90deg, rgba(0,83,33,1) 0%, rgba(215,198,1,1) 100%);
+  }
+  

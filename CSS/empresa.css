@@ -1,0 +1,12 @@
+.empresa{  /*crear un nuevo tipo de estilo llamado .empresa y descripcion */
+    color:black;
+    font:18px;
+    text-align:center;
+}
+ p{ /*descripcion del estilo de parrafo */
+    color:black; 
+}
+marquee{ /*descripcion del marco y su contenido */
+    color:purple;
+    border-style:solid;
+}

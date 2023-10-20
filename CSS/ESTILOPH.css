@@ -1,0 +1,180 @@
+﻿{
+    padding: 0;
+    margin: 0;
+}
+
+h1 { /*ES EL ENCABEZADO DE MARCACIO N TITULO*/
+    text-align: center; /* ALINEACION DEL TEXTO A CENTRADO*/
+    background-color: rgb(16, 92, 13); /*DEFINE EL FONDO DE COLOR*/
+    color: white; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+    padding: 20px; /*ESTABLECE EL ÁREA DE RELLENO EN LOS CUATRO LADOS DE UN ELEMENTO A LA VEZ.*/
+}
+h2{
+    text-align: center; /* ALINEACION DEL TEXTO A CENTRADO*/
+    color:black; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+    padding: 20px; /*ESTABLECE EL ÁREA DE RELLENO EN LOS CUATRO LADOS DE UN ELEMENTO A LA VEZ.*/
+}
+nav ul { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    background-color: #757575; /*DEFINE EL FONDO DE COLOR*/
+    width: 97% /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+}
+
+ul {
+    list-style: none; /*DA PROPIEDADES RELACIONADAS CON LOS MARCADORES DE LOS ELEMENTOS DE UNA LISTA*/
+    text-align: center; /* ALINEACION DEL TEXTO A CENTRADO*/
+}
+
+nav li { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    display: inline-flex; /*ELEMENTO ES TRATADO COMO BLOCK OR INLINE ELEMENT (FLEXIBLE)*/
+}
+
+nav a { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    text-decoration: none; /*SE USA PARA ESTABLECER EL FORMATO DE TEXTO (DESACTIVAR VISUALIZACIÓN)*/
+    color: white; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+    padding: 10px; /*ESTABLECE EL ÁREA DE RELLENO EN LOS CUATRO LADOS DE UN ELEMENTO A LA VEZ.*/
+    width: 150px; /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+}
+
+nav li:hover { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    background-color:rgb(16, 92, 13); /*DEFINE EL FONDO DE COLOR*/
+}
+img { /*ELEMNTO DE REMPLAZO*/
+    width: 200px; /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+    height: 200px; /*ALTURA DEL ELEMENTO EN PIXELES*/
+    border-radius: 50%; /*ESTABLECE EL REDONDEDO DE LA IMAGEN EN PORCIENTO*/
+    object-fit:cover; /*AJUSTARCE AL CONTENEDOR DE LA IMAGEN*/
+}
+.Contenido { /*ELEMENTO INSERTADO EN EL HTML*/
+    display: flex; /*ELEMENTO ES TRATADO COMO BLOCK OR INLINE ELEMENT (FLEXIBLE)*/
+    margin: 60px; /*ESTABLECE EL MARGEN DE LOS 4 LADOS*/
+}
+.Articulos { /*ELEMENTO INSERTADO EN EL HTML*/
+    width: 80%; /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+    border-right: 3px solid black; /*DAR VALOR AL BORDE*/
+}
+.Secciones { /*ELEMENTO INSERTADO EN EL HTML*/
+    display: flex; /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+    align-items: center; /* ESTABLECE EL VALOR ALIGN-SELF SOBRE TODOS LOS DESCENDIENTES DIRECTOS DE UN GRUPO (CENTRADO)*/
+    padding: 40px; /*ESTABLECE EL ÁREA DE RELLENO EN LOS CUATRO LADOS DE UN ELEMENTO A LA VEZ*/
+}
+.Menu-Secundario { /*ELEMENTO INSERTADO EN EL HTML*/
+    width: 20%; /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+    margin-top: 60px; /*ESTABLECE EL MARGEN SUPERIOR DE UN ELEMENTO ESPECIFICANDO UNA LONGITUD PIXELES*/
+}
+    .Menu-Secundario a { /*ELEMENTO INSERTADO EN EL HTML*/
+        display: block; /*ELEMENTO ES TRATADO COMO BLOCK OR INLINE ELEMENT (BLOQUEO)*/
+        text-align: center; /* ALINEACION DEL TEXTO A CENTRADO*/
+        color: black; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+        margin-bottom: 20px; /*ELEMENTO QUE ESTABLECE EL ESPACIO REQUERIDO EN LA PARTE INFERIOR DE UN ELEMENTO.*/
+    }
+footer { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    width: 100%; /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+    height: 170px; /*ALTURA DEL ELEMENTO EN PIXELES*/
+    background-color: black; /*DEFINE EL FONDO DE COLOR*/
+    color: white; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+    margin-top: 40px; /*ESTABLECE EL MARGEN SUPERIOR DE UN ELEMENTO ESPECIFICANDO UNA LONGITUD EN PIXELES*/
+}
+    footer p { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+        text-align: center; /* ALINEACION DEL TEXTO A CENTRADO*/
+        padding: 10px; /*ESTABLECE EL ÁREA DE RELLENO EN LOS CUATRO LADOS DE UN ELEMENTO A LA VEZ*/
+    }
+h1 { /*ELEMENTO INSERTADO EN EL HTML*/
+    text-align: center; /* ALINEACION DEL TEXTO A CENTRADO*/
+    background-color: rgb(16, 92, 13); /*DEFINE EL FONDO DE COLOR*/
+    color: white; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+    padding: 20px; /*ESTABLECE EL ÁREA DE RELLENO EN LOS CUATRO LADOS DE UN ELEMENTO A LA VEZ*/
+}
+caption { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    color: black; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+}
+
+th, td, img { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    text-align: left; /* ALINEACION DEL TEXTO A HORIZONTAL*/
+    padding: 8px; /*ESTABLECE EL ÁREA DE RELLENO EN LOS CUATRO LADOS DE UN ELEMENTO A LA VEZ*/
+    border-bottom: 1px solid #ddd; /*DEFINE PROPIEDADES INDIVIDUALES*/
+}
+
+th { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    background-color: rgb(16, 92, 13); /*DEFINE EL FONDO DE COLOR*/
+    color: white; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+}
+
+td { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    color: rgb(16, 92, 13); /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+}
+
+tr:hover { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    background-color: #f5f5f5; /*DEFINE EL FONDO DE COLOR*/
+}
+
+th, td { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    text-align: left; /* ALINEACION DEL TEXTO A HORIZONTAL*/
+    padding: 8px; /*ESTABLECE EL ÁREA DE RELLENO EN LOS CUATRO LADOS DE UN ELEMENTO A LA VEZ*/
+    border-bottom: 1px solid #ddd; /*DEFINE PROPIEDADES INDIVIDUALES*/
+}
+
+img { /*EL ELEMENTO DE SECCIÓN DE NAVEGACIÓN*/
+    background-color: black; /*DEFINE EL FONDO DE COLOR*/
+    color: white; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+    border-bottom: 1px solid #ddd; /*DEFINE PROPIEDADES INDIVIDUALES*/
+}
+
+marquee { /*ELEMENTO INSERTADO EN EL HTML*/
+    width: 100%; /*ESTABLECE EL ANCHO DE UN ELEMENTO*/
+    height: 180px; /*ALTURA DEL ELEMENTO EN PIXELES*/
+}
+
+h6 { /*ELEMENTO INSERTADO EN EL HTML*/
+    text-align: center; /* ALINEACION DEL TEXTO A CENTRADO*/
+    background-color: rgb(16, 92, 13); /*DEFINE EL FONDO DE COLOR*/
+    color: white; /*SELECCIONA EL VALOR DE COLOR DE PRIMER PLANO DEL CONTENIDO DE ELEMENTO DE TEXTO Y DECORACIONES DE TEXTO.*/
+    padding: 20px; /*ESTABLECE EL ÁREA DE RELLENO EN LOS CUATRO LADOS DE UN ELEMENTO A LA VEZ*/
+}
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+
+/* Estilo del formulario */
+form {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    max-width: 500px;
+}
+
+/* Estilo de los campos de entrada */
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Estilo del botón de envío */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo del botón de reinicio */
+input[type=reset] {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

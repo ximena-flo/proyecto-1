@@ -1,0 +1,124 @@
+.guerrera{ /*crear un nuevo tipo de estilo llamado .guerrera y descripcion */
+    color:pink;
+    font:18px;
+    text-align:center;
+}
+body{
+    background-color: rgb(236, 234, 234);
+}
+td{
+    color:purple;
+    font:15px;
+    text-align:center;
+}
+caption{
+    color:black;
+    font:14px;
+    text-align:center;
+}
+tr{
+    color:black;
+    font: 14px;
+    text-align:center;
+}
+p{
+    color:black;
+    font:14px;
+    text-align:center;
+    
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    font:14px;
+    text-align:center;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    font:10px;
+    text-align:center;
+}
+h3{
+    font-family: monospace;
+    color:black;
+    font:18px;
+    text-align:center;
+}
+hr {
+    width: 70%;
+    height: 5px;
+    border: medium none;
+    border-top: 1px dashed black;
+  }
+div{
+    text-align: center;
+}
+a{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color:black;
+}
+.empresa{  /*crear un nuevo tipo de estilo llamado .empresa y descripcion */
+    color:black;
+    font:18px;
+    text-align:center;
+}
+marquee{
+    color:rgb(43, 40, 43);
+    border-style:dotted;
+}
+th{
+    background-color:#D2B4DE ;
+}
+
+/*estilo del formulario */
+form {  /*tiene un borde, un relleno y para crear un estilo de caja.*/
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label { /*bloques con un margen*/ 
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], textarea { /*para mantener el estilo del formulario*/
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] { /*tiene un fondo verde el boton de enviar y efecto de botón.*/
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /*modificar el tamaño*/
+  input[type="submit"]:hover { /*tiene un fondo verde el boton de enviar y efecto de botón.*/
+    background-color: #3e8e41;
+  }
+  /*ESTILO PARA DIMENCION DE ELEMENTOS*/
+  .parrafo{  /*Clase llamado parrafo que modifica el color del subrayado del texto, tamaño y letra*/
+    margin-bottom:.5em; /* .5 veces el tamaño de la fuente */
+    font-family:arial, san-serif;
+    background-color:#AEB6BF ;
+    }
+
+    .container {  /*Clase llamado container para colocar el cuadro de texto alado de una imagen*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    gap:5px;
+    height: 100vh;
+    }
